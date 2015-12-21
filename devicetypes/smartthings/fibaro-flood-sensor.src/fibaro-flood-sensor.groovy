@@ -6,7 +6,7 @@
  *	Initial Release:	2014-12-10
  *	@author:			Todd Wackford
  *  Email:				todd@wackford.net
- *  @version:			1.0
+ *  @version:			1.1
  *
  *  Copyright 2014 SmartThings
  *
@@ -45,6 +45,7 @@ metadata {
         command		"updateZwaveParam"
         command		"test"
         
+		fingerprint deviceId: "0xA102", inClusters: "0x30,0x9C,0x60,0x85,0x8E,0x72,0x70,0x86"
 		fingerprint deviceId: "0xA102", inClusters: "0x30,0x9C,0x60,0x85,0x8E,0x72,0x70,0x86,0x80,0x84"
 	}
 
